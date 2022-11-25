@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tabuleiro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+.casa{
+    border:solid 0px black;
+    flex-basis: calc(100vw / 8);
+    height: calc(100vh / 8);
+}
+
+.black {background-color: black}
+.white {background-color: white}
+
